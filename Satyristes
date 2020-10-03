@@ -1,0 +1,27 @@
+(version 0.0.2)
+(library
+  (name "fonts-noto-sans-cjk-sc")
+  (version "2.001")
+  (sources
+    ((hash "fonts.satysfi-hash" "fonts.satysfi-hash")
+     (hash "mathfonts.satysfi-hash" "mathfonts.satysfi-hash")
+     (font "NotoSansCJKsc-Black.otf" "noto-sans-cjk-sc/NotoSansCJKsc-Black.otf")
+     (font "NotoSansCJKsc-Bold.otf" "noto-sans-cjk-sc/NotoSansCJKsc-Bold.otf")
+     (font "NotoSansCJKsc-DemiLight.otf" "noto-sans-cjk-sc/NotoSansCJKsc-DemiLight.otf")
+     (font "NotoSansCJKsc-Light.otf" "noto-sans-cjk-sc/NotoSansCJKsc-Light.otf")
+     (font "NotoSansCJKsc-Medium.otf" "noto-sans-cjk-sc/NotoSansCJKsc-Medium.otf")
+     (font "NotoSansCJKsc-Regular.otf" "noto-sans-cjk-sc/NotoSansCJKsc-Regular.otf")
+     (font "NotoSansCJKsc-Thin.otf" "noto-sans-cjk-sc/NotoSansCJKsc-Thin.otf")
+     (font "NotoSansMonoCJKsc-Bold.otf" "noto-sans-cjk-sc/NotoSansMonoCJKsc-Bold.otf")
+     (font "NotoSansMonoCJKsc-Regular.otf" "noto-sans-cjk-sc/NotoSansMonoCJKsc-Regular.otf")
+     ))
+  (opam "satysfi-fonts-noto-sans-cjk-sc.opam"))
+(libraryDoc
+  (name "fonts-noto-sans-cjk-sc-doc")
+  (version "2.001")
+  (build
+    ((satysfi "doc-fonts-noto-sans-cjk-sc.saty" "-o" "doc-fonts-noto-sans-cjk-sc.pdf")))
+  (sources
+    ((doc "doc-fonts-noto-sans-cjk-sc.pdf" "./doc-fonts-noto-sans-cjk-sc.pdf")))
+  (opam "satysfi-fonts-noto-sans-cjk-sc-doc.opam")
+  (dependencies ((fonts-noto-sans-cjk-sc ()))))

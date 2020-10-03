@@ -1,0 +1,11 @@
+{
+  "fonts-noto-sans-cjk-sc:NotoSansCJKsc-Black" : <Single: {"src": "dist/fonts/fonts-noto-sans-cjk-sc/NotoSansCJKsc-Black.otf"}>,
+  "fonts-noto-sans-cjk-sc:NotoSansCJKsc-Bold" : <Single: {"src": "dist/fonts/fonts-noto-sans-cjk-sc/NotoSansCJKsc-Bold.otf"}>,
+  "fonts-noto-sans-cjk-sc:NotoSansCJKsc-DemiLight" : <Single: {"src": "dist/fonts/fonts-noto-sans-cjk-sc/NotoSansCJKsc-DemiLight.otf"}>,
+  "fonts-noto-sans-cjk-sc:NotoSansCJKsc-Light" : <Single: {"src": "dist/fonts/fonts-noto-sans-cjk-sc/NotoSansCJKsc-Light.otf"}>,
+  "fonts-noto-sans-cjk-sc:NotoSansCJKsc-Medium" : <Single: {"src": "dist/fonts/fonts-noto-sans-cjk-sc/NotoSansCJKsc-Medium.otf"}>,
+  "fonts-noto-sans-cjk-sc:NotoSansCJKsc-Regular" : <Single: {"src": "dist/fonts/fonts-noto-sans-cjk-sc/NotoSansCJKsc-Regular.otf"}>,
+  "fonts-noto-sans-cjk-sc:NotoSansCJKsc-Thin" : <Single: {"src": "dist/fonts/fonts-noto-sans-cjk-sc/NotoSansCJKsc-Thin.otf"}>,
+  "fonts-noto-sans-cjk-sc:NotoSansMonoCJKsc-Bold" : <Single: {"src": "dist/fonts/fonts-noto-sans-cjk-sc/NotoSansMonoCJKsc-Bold.otf"}>,
+  "fonts-noto-sans-cjk-sc:NotoSansMonoCJKsc-Regular" : <Single: {"src": "dist/fonts/fonts-noto-sans-cjk-sc/NotoSansMonoCJKsc-Regular.otf"}>
+}
